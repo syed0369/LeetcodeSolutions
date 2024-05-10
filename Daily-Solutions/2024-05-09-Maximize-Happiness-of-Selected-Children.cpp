@@ -14,7 +14,7 @@ Solution:
 Sine we have to select the maximum happiness in each iteration, priority queue pq can be used. In C++ it is implemented using heap. First inserting the elements of happiness into the pq named q. For selecting the maximum happiness in each iteration we can just pop out the element from the pq. Since for each turn the happiness of the children decreases by 1, maintain a counter which increases after each element is selected.
 
 Complexity:
-Time complexity: O(nlogn + klogn) 
+Time complexity: O(nlogn + klogn) Any operation takes logn time. For creating the pq, n insertions required O(nlongn) for accessing the maximum element it takes O(1), deleting it takes longn time, k deletions take O(klogn). Hence total time complexity O(nlogn + klogn)
 Space complexity: O(n)
 where n is number of children
 ********************************************/
