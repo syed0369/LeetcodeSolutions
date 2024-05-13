@@ -1,5 +1,5 @@
 /********************************************
-Solution to LeetCode Daily Question 05-05-2024. 
+Solution to LeetCode Daily Question 05-09-2024. 
 
 Problem:
 You are given an array happiness of length n, and a positive integer k.
