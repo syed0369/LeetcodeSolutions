@@ -12,11 +12,11 @@ Return the highest possible score after making any number of moves (including ze
 
 Solution:
 The most significant bit has to be set to obtain the maximum sum. If the bit is 1 we leave the row unchanged if it is 0, we flip the bits in the row. Now we look at the columns, if the number of ones is less than the number of zeroes, we should also keep account of whether particular row in which the bit is present was flipped or not. This can be checked form the table:
-First Element | Current Element	|Current Element after flip
-     0	      |        0	    |       1
-     0	      |        1	    |       0
-     1        |        0	    |       0
-     1	      |        1	    |       1
+First Element| Current Element| Current Element after flip
+     0	   |        0	     |      1
+     0	   |        1	     |      0
+     1       |        0	     |      0
+     1	   |        1	     |      1
 If the first row element is 0, flip the curr element else donot flip. 
 We can count the number of ones in the particular column after which we can choose to flip the bits if count of ones is less than the count of zeroes. The decimal form of the number is then adder to score. The decimal form is  1  << n - j - 1. Where i,j is the index of the bit in the matrix and n is the number of columns. 
 
