@@ -1,5 +1,5 @@
 /********************************************
-Solution to LeetCode Daily Question 05-13-2024. 
+Solution to LeetCode Daily Question 05-16-2024. 
 
 Problem:
 You are given the root of a full binary tree with the following properties:
