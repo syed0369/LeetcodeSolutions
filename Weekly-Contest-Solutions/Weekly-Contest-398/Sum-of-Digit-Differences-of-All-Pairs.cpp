@@ -1,3 +1,20 @@
+/******************************************** 
+Problem:
+You are given an array nums consisting of positive integers where all integers have the same number of digits.
+
+The digit difference between two integers is the count of different digits that are in the same position in the two integers.
+
+Return the sum of the digit differences between all pairs of integers in nums.
+
+Solution:
+On observing many examples, we can come to the conclusion that the total number of pairs that can be formed from n numbers are nC2. To find the pairs with different digit at a place value we can subtract the same digits in the place value from nC2. This can be done by maintaining a frequency table for digits 0 to 9. For eah frequecy then the number of pairs with like digits will be frequencyC2. This is subtracted from the total number of pairs of different numbers.
+
+Time Complexity:   O(N * number of digits)
+Space Complexity:  O(1)
+
+where N is number of elements.
+
+********************************************/
 class Solution {
 public:
     long long sumDigitDifferences(vector<int>& nums) {
