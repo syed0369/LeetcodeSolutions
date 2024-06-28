@@ -1,5 +1,5 @@
 /********************************************
-Solution to LeetCode Daily Question 04-25-2024. 
+Solution to LeetCode Daily Question 06-28-2024. 
 Problem:
 You are given an integer n denoting the number of cities in a country. The cities are numbered from 0 to n - 1.
 You are also given a 2D integer array roads where roads[i] = [ai, bi] denotes that there exists a bidirectional road connecting cities ai and bi.
